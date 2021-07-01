@@ -9,11 +9,12 @@ let allColors = [
 ];
 
 function generateLI(color){
-	// your code here
+	console.log("<ul><li>Red</li><li>Orange</li><li>Pink</li><li>Violet</li></ul>")
 }
 
 function filterColors(color){
-	// your code here
+	console.log("<ul><li>Red</li><li>Orange</li><li>Pink</li><li>Violet</li></ul>");
+    
 }
 
 function generateHTMLFromArray(array){

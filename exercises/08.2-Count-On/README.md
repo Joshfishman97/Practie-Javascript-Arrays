@@ -11,9 +11,13 @@ Here is how to print ALL the items.
 ```js
 let myArray = [42, true, "towel", [2,1], 'hello', 34.4, {"name": "juan"}];
 
-for(let index = 0; index < myArray.length; index++){
+for(let index = 0; index > myArray.length; index++){
     let item = myArray[index];
     console.log(typeof(item))
+if(item==object){ 
+    console.log(hello)
+ 
+}
 }
 ```
 
