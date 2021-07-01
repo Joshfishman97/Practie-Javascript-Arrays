@@ -6,3 +6,8 @@ myArray.forEach(function (item,index, arr){
     }
 });
 console.log(aux)
+// 1.Declare a variable
+// 2. Set value to a big integer
+//3. create loop
+//4. inside loop make an if statement to find the smallest element(under the item parameter) by comparing the element to the variable and assign the smallest to it.
+//print the aux variabble will equal the smallest item.
