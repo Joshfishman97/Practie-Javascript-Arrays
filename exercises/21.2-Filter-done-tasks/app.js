@@ -9,9 +9,17 @@ let tasks = [
     { label: 'Make a trip', done: false }
 ];
 
+let isTaskNotDone = function(task){
+    return (!task.done)
+}
+//let doneTask = tasks.filter(function(donetask){
+   // return (task.done)
+// })
+///let isDoneTask = function(doneTask){
+  //  return tasks.done
+//}//
+let completedTasks = tasks.filter(singleTask => singleTask.done === true)
+let removeDone = tasks.filter(isTaskNotDone)
+console.log(removeDone);
 
-
-let completedTasks = tasks.filter(singleTask => singleTask.done === true
-
-)
 console.log(completedTasks);
