@@ -9,11 +9,12 @@ let allColors = [
 ];
 
 function generateLI(color){
-	console.log("<ul><li>Red</li><li>Orange</li><li>Pink</li><li>Violet</li></ul>")
+	return `<li>${color.label}</li>`;
 }
 
 function filterColors(color){
-	console.log("<ul><li>Red</li><li>Orange</li><li>Pink</li><li>Violet</li></ul>");
+	if(color.sexy === true){
+	return color.sexy; }
     
 }
 
