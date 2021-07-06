@@ -12,15 +12,14 @@ function generateLI(color){
 	return `<li>${color.label}</li>`;
 }
 
-function filterColors(color){
-	if(color.sexy === true){
-	return color.sexy; }
+function isSexyColor(color){
+	return color.sexy; 
     
 }
 
 function generateHTMLFromArray(array){
 	
-	let filteredOptions = array.filter(filterColors);
+	let filteredOptions = array.filter(isSexyColor);
 	let LIs = filteredOptions.map(generateLI);
 
 	let htmlString = '<ul>';
